@@ -9,14 +9,14 @@ public class Main {
         GameProgress progress2 = new GameProgress(80, 6, 15, 25.3);
         GameProgress progress3 = new GameProgress(50, 7, 30, 40.7);
 
-        saveGames("D:\\Netology.project\\Блок JavaCore\\GameInstalled\\Games\\savegames\\save1.dat", progress1);
-        saveGames("D:\\Netology.project\\Блок JavaCore\\GameInstalled\\Games\\savegames\\save1.dat", progress2);
-        saveGames("D:\\Netology.project\\Блок JavaCore\\GameInstalled\\Games\\savegames\\save1.dat", progress3);
+        saveGames("D:\\Netology.project\\Блок JavaCore\\Games\\savegames\\save1.dat", progress1);
+        saveGames("D:\\Netology.project\\Блок JavaCore\\Games\\savegames\\save2.dat", progress2);
+        saveGames("D:\\Netology.project\\Блок JavaCore\\Games\\savegames\\save3.dat", progress3);
 
-        zipFiles("D:\\Netology.project\\Блок JavaCore\\GameInstalled\\Games\\savegames\\zip.zip",
-                List.of("D:\\Netology.project\\Блок JavaCore\\GameInstalled\\Games\\savegames\\save1.dat",
-                        "D:\\Netology.project\\Блок JavaCore\\GameInstalled\\Games\\savegames\\save2.dat",
-                        "D:\\Netology.project\\Блок JavaCore\\GameInstalled\\Games\\savegames\\save3.dat"));
+        zipFiles("D:\\Netology.project\\Блок JavaCore\\Games\\savegames\\zip.zip",
+                List.of("D:\\Netology.project\\Блок JavaCore\\Games\\savegames\\save1.dat",
+                        "D:\\Netology.project\\Блок JavaCore\\Games\\savegames\\save2.dat",
+                        "D:\\Netology.project\\Блок JavaCore\\Games\\savegames\\save3.dat"));
 
 
     }
